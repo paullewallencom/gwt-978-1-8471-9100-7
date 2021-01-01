@@ -1,0 +1,10 @@
+/*
+ * @test @(#)Test	1.2 98/01/21
+ * @bug 4053724
+ * @summary Certain non-ambiguous field references were reported by the
+ *          compiler as ambigous.
+ * @author turnidge
+ *
+ * @compile -nowrite one/Parent.java two/Child.java
+ * @compile -nowrite one/Parent2.java two/Child2.java
+ */

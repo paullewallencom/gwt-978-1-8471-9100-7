@@ -1,0 +1,27 @@
+<module>
+
+  <!-- Inherit the core Web Toolkit stuff.                  -->
+  <inherits name="com.google.gwt.user.User"/>
+  <inherits name="com.google.gwt.junit.JUnit" />
+  <inherits name ="com.google.gwt.xml.XML"/> 
+  <inherits name ="com.google.gwt.i18n.I18N"/>
+  <inherits name="org.gwtwidgets.WidgetLibrary"/>
+  <inherits name="com.packtpub.gwtbook.widgets.Widgets"/>
+ 
+  <extend-property name="locale" values="el_GR"/> 
+  <extend-property name="locale" values="es_ES"/> 
+  <extend-property name="locale" values="zh_CN"/> 
+  
+
+  <!-- Specify the app entry point class.                   -->
+  <entry-point class='com.packtpub.gwtbook.samples.client.Samples'/>
+  <servlet path="/livesearch" class="com.packtpub.gwtbook.samples.server.LiveSearchServiceImpl"/>
+  <servlet path="/pwstrength" class="com.packtpub.gwtbook.samples.server.PasswordStrengthServiceImpl"/>
+  <servlet path="/autoformfill" class="com.packtpub.gwtbook.samples.server.AutoFormFillServiceImpl"/>
+  <servlet path="/dynamiclists" class="com.packtpub.gwtbook.samples.server.DynamicListsServiceImpl"/>
+  <servlet path="/pageabledata" class="com.packtpub.gwtbook.samples.server.PageableDataServiceImpl"/>
+  <servlet path="/logspy" class="com.packtpub.gwtbook.samples.server.LogSpyServiceImpl"/>
+
+  <servlet path="/weather" class="com.packtpub.gwtbook.widgets.server.WeatherServiceImpl"/>
+
+</module>

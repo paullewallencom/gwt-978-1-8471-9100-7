@@ -1,0 +1,119 @@
+.weatherImage
+{
+height:50px;
+width:50px;
+padding : 15px 10px 0px 45px;
+}
+
+.weatherHolder{
+  background-color : #587806;
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  margin: 10px 20px 10px 70px;
+  font-size: 10px;
+}
+
+.currentTemp {
+  line-height: 1.1em;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding : 5px 0px 0px 25px;
+}
+
+.degrees {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1.1em;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding : 5px 20px 5px 0px;
+}
+
+.currentCondition {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  padding : 2px 10px 15px 45px;
+}
+
+.currentMeasurements {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding : 1px 10px 1px 10px;
+}
+
+.conditionPanel {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: #5A3170;
+  padding : 2px 10px 1px 10px;
+  margin-top: 14px;
+  margin-bottom: 2px;
+  background-color: #97B745;
+}
+
+.measurementDegrees {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding : 1px 10px 1px 0px;
+}
+
+.currentMeasurementsDegrees {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding : 1px 0px 1px 10px;
+}
+
+.city {
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  padding : 2px 20px 15px 5px;
+}
+
+.zipCodeInput{
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  width: 50px;
+  height: 18px;
+  background-color: #5A3170;
+  color: white;
+  font-size: smaller;
+  vertical-align: middle;
+  text-align: center;
+  border: 0px solid black;  
+  margin: 30px 0px 5px 0px;
+}
+
+.zipCodeLabel{
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  width: 80px;
+  height: 20px;
+  color: white;
+  vertical-align: middle;
+  font-size: smaller;
+  text-align: center;
+  margin: 30px 0px 5px 50px;
+}

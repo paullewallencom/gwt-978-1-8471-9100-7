@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<books>
+<book id="1">
+	<title>I,Claudius</title>
+	<author>Robert Graves</author>
+	<year>1934</year>
+</book>
+<book id="2">
+	<title>The Woman in white</title>
+	<author>Wilkie Collins</author>
+	<year>1859</year>
+</book>
+<book id="3">
+	<title>Shogun</title>
+	<author>James Clavell</author>
+	<year>1975</year>
+</book>
+<book id="4">
+	<title>City of Djinns</title>
+	<author>William Dalrymple</author>
+	<year>1994</year>
+</book>
+<book id="5">
+	<title>Train to pakistan</title>
+	<author>Kushwant Singh</author>
+	<year>1956</year>
+</book>
+</books>

@@ -1,0 +1,93 @@
+.CalendarWidget {
+  background-color: #000000;
+  font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 15px 15px 15px 50px;
+}
+
+.CalendarWidget .header{
+  font-size: 12px;
+  font-weight: bold;
+  color: #B4EB50;
+}
+
+.CalendarWidget .navbar {
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.CalendarWidget .navbar .gwt-Button {
+  font-weight: bold;
+  height: 25px;    
+  width: 18px;
+  border: 1px solid; 
+}
+
+.CalendarWidget .table {
+  font-weight: bold;
+  padding: 8px 5px 0px 8px; 
+}
+
+.CalendarWidget .weekheader {
+  background-color: #000000;
+  color: gray;
+}
+
+.CalendarWidget .weekheader .days {
+  width: 1.75em;
+  color: gray;
+}
+
+.CalendarWidget .cell {
+  cursor:pointer;
+}
+
+.CalendarWidget .cell .gwt-HTML span {
+  width: 100%;
+  height: 100%;
+  line-height: 1em;
+  color: white;
+}
+
+.CalendarWidget .today .gwt-HTML span{
+  color: #B4EB50;
+}
+
+.CalendarWidget .dayOfWeek {
+  line-height: 1.1em;
+  font-size: 22px;
+  font-weight: bold;
+  color: #B4EB50;
+  width:150px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.CalendarWidget .dateOfWeek {
+  line-height: 1.3em;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  width:150px;
+  text-align: center;
+}
+
+.CalendarWidget .vpanel {
+    border-right: 4px gray groove;
+    margin: 5px;
+}
+
+.CalendarWidgetHolder{
+   background-color : #000000;
+}
+
+.CalendarWidget .todayButton {
+  background-color: #B4EB50;
+  color: black;
+  margin: 0px 1px 2px 70px;
+  width: 60px;
+  border: 1px solid #336699;
+  font-size: smaller;
+}
